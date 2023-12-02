@@ -7,7 +7,7 @@
 powershell Get-ExecutionPolicy
 powershell Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 powershell Get-ExecutionPolicy
-powershell .\Runtime_Install_Helper_v1.1.ps1
+powershell .\Runtime_Install_Helper_v1.2.ps1
 powershell Set-ExecutionPolicy -Scope CurrentUser Restricted
 
 pause

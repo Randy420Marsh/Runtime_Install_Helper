@@ -1,4 +1,4 @@
-# Runtime install helper Version 1.1
+# Runtime install helper Version 1.2
 # Installs all the latest english runtimes
 # that you select.
 
@@ -11,7 +11,7 @@ powershell
 Get-ExecutionPolicy
 Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 Get-ExecutionPolicy
-./Runtime_Install_Helper_v1.1.ps1
+./Runtime_Install_Helper_v1.2.ps1
 
 #>
 
@@ -51,7 +51,7 @@ while("y","n" -notcontains $ok_continue)
 if($ok_continue -like "y") { 
 
 Write-Host "-"
-Write-Host "Runtime install helper Version 0.6"
+Write-Host "Runtime install helper Version 1.2"
 Write-Host "Installs all the english runtimes"
 Write-Host "that you select."
 Write-Host "-"
@@ -91,7 +91,7 @@ while("y","n" -notcontains $dx)
 	$dx = Read-Host "y or n?"
 }
 
-$xna3 = Read-Host "Microsoft XNA Framework Redistributable 3.0? (y/n)"
+$xna3 = Read-Host "(Optional for XNALara) Microsoft XNA Framework Redistributable 3.0? (y/n)"
 
 while("y","n" -notcontains $xna3)
 {
