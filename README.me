@@ -1,7 +1,23 @@
-Extract to C:\ and Run by executing exec.bat as a admin.
-The script asks for confirmation of what you would like to install and downloads the files to separate folder in "C:\Runtime_Install_Helper\" and then automatically installs the files with no user interaction and pauses after the install showing the output.
-The script sets powershell script permissions to RemoteSigned and after execution returns the permissions to Resticted.
+# Instructions
 
-Can install directx, netfx and VC 2005 - VC 2022 + XNA 3.0 redistributable.
+1. **Download and Install:**
+   - Extract the contents of the zip file to your `C:\` drive.
+   - Run `exec.bat` as an administrator.
 
-The space requirements are about 100MB for the downloads.
+2. **Installation Process:**
+   - The script will prompt you to confirm what you want to install.
+   - Files will be downloaded to a separate folder: `C:\Runtime_Install_Helper\`.
+   - The installation will proceed automatically without needing user interaction.
+   - After installation, the script will pause and display the output.
+
+3. **Script Behavior:**
+   - The script adjusts PowerShell script permissions to `RemoteSigned` during execution.
+   - After execution, the script restores permissions to `Restricted`.
+
+4. **Supported Installations:**
+   - DirectX, .NET Framework (netfx), VC 2005 - VC 2022, and Optional XNA 3.0 redistributable for XNALara can be installed.
+
+5. **Space Requirements:**
+   - Approximately 100MB of space is needed for the downloads.
+
+Note: Make sure to run `exec.bat` as an administrator for a smooth installation process.
